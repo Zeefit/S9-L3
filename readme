@@ -1,0 +1,55 @@
+Valutare l’impatto economico di disastri come terremoti, incendi o inondazioni su specifici asset aziendali è un elemento cruciale di una strategia di Business Continuity (BC) e Disaster Recovery (DR). Ecco perché si fanno queste analisi:
+
+1. Gestione del rischio
+Identificare le vulnerabilità: Conoscere quali asset sono più esposti a determinati eventi consente di capire dove l’azienda è più vulnerabile.
+Quantificare l’impatto economico: Tradurre i rischi in valori monetari aiuta i manager a prendere decisioni informate e allocare risorse in modo efficace.
+2. Pianificazione e prevenzione
+Prioritizzare gli investimenti: Conoscere il costo potenziale di un disastro permette di decidere quali misure preventive (es. rinforzi strutturali, backup dei dati, assicurazioni) sono più urgenti o necessarie.
+Evitare l’interruzione del business: Calcolare l’impatto economico aiuta a prevenire perdite catastrofiche che potrebbero compromettere l’operatività dell’azienda.
+3. Conformità normativa
+In molti settori, le aziende devono dimostrare di avere piani per gestire i rischi e garantire la continuità operativa, rispettando leggi e regolamenti.
+
+4. Riduzione dei costi a lungo termine
+Investire in misure di prevenzione, come backup dei dati o assicurazioni, è spesso meno costoso rispetto alle perdite economiche associate a un disastro.
+
+5. Protezione della reputazione aziendale 
+Un’azienda che subisce un disastro senza un piano di continuità può perdere clienti, fiducia del mercato e credibilità. La preparazione rafforza la fiducia degli stakeholder.
+
+
+Per risolvere l'esercizio, dobbiamo calcolare la Annual Loss Expectancy (ALE) per ogni scenario indicato. La formula da utilizzare è:
+
+ALE=Asset Value×Exposure Factor (EF)×Annualized Rate of Occurrence (ARO)
+
+Asset Value è il valore dell'asset.
+Exposure Factor (EF) rappresenta la percentuale di danno sull'asset in caso di evento.
+ARO è la frequenza annuale stimata dell'evento.
+
+Terremoto: ARO=1/30=0.0333
+Incendio: ARO=1/20=0.05
+Inondazione: ARO=1/50=0.02
+
+ Inondazione sull'asset "edificio secondario":
+ ALE=150,000×0.4×0.02=1,200€
+
+ Terremoto sull'asset "datacenter":
+ ALE=100,000×0.95×0.0333=3,166.5€
+
+ Incendio sull'asset "edificio primario":
+ ALE=350,000×0.6×0.05=10,500€
+
+Incendio sull'asset "edificio secondario":
+ALE=150,000×0.5×0.05=3,750€
+
+Inondazione sull'asset "edificio primario":
+ALE=350,000×0.55×0.02=3,850€
+
+Terremoto sull'asset "edificio primario":
+ALE=350,000×0.8×0.0333=9,332€
+
+Risultato:
+Inondazione sull'asset "edificio secondario": 1,200 €
+Terremoto sull'asset "datacenter": 3,166.5 €
+Incendio sull'asset "edificio primario": 10,500 €
+Incendio sull'asset "edificio secondario": 3,750 €
+Inondazione sull'asset "edificio primario": 3,850 €
+Terremoto sull'asset "edificio primario": 9,332 €
